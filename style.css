@@ -1,637 +1,672 @@
-            @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
-            * {
-                margin: 0;
-                padding: 0;
-                box-sizing: border-box;
-                font-family: 'Poppins', sans-serif;
-            }
-            
-            html,
-            body {
-                background-color: #FDFDFE;
-            }
-            
-            .logo h1 {
-                color: #fcae61;
-                font-weight: 700;
-            }
-            
-            .logo span {
-                color: #242f51;
-            }
-            
-            .navbar-black ul li a {
-                color: #313b5b;
-                font-weight: 500;
-            }
-            
-            .link-bt {
-                padding: 10px 20px;
-                margin-left: 20px;
-                background-color: #2500f9;
-                border-radius: 50px;
-                color: white;
-            }
-            
-            .link-bt a {
-                text-decoration: none;
-            }
-            
-            .link-bt:hover {
-                color: white;
-                text-decoration: none;
-            }
-            
-            .text-box {
-                padding: 10px;
-            }
-            
-            .check-box span {
-                padding: 5px 20px 5px 0px;
-                border-radius: 50px;
-                background-color: #e2eaed;
-            }
-            
-            .icon-box {
-                padding: 5px;
-                border-radius: 50%;
-                color: white;
-                background-color: #feaa25;
-                margin-right: 10px;
-                font-size: 15pt;
-                display: table-cell;
-                vertical-align: middle;
-            }
-            
-            .header-img img {
-                max-width: 100%;
-                padding-bottom: 20px;
-            }
-            
-            .text-box {
-                line-height: 60px;
-                margin: 25% auto;
-            }
-            
-            .text-box h1 {
-                color: #242F51;
-                font-weight: 800;
-            }
-            
-            .text-box p {
-                line-height: 20px;
-                color: gray;
-            }
-            
-            .button-box {
-                display: inline-block;
-            }
-            
-            .button-box a {
-                padding: 10px 20px;
-                background-color: #2500f9;
-                border-radius: 50px;
-                color: white;
-                text-decoration: none;
-            }
-            
-            .button-box a:hover {
-                color: white;
-                text-decoration: none;
-            }
-            
-            .button-box-2 {
-                display: inline-block;
-            }
-            
-            .button-box-2 a {
-                color: #2500f9;
-                padding-left: 10px;
-            }
-            
-            .button-box-2 a:hover {
-                color: #FCAE61;
-                text-decoration: none;
-            }
-            
-            .company-heading p {
-                color: #242f51;
-                font-weight: 500;
-            }
-            
-            .company-img {
-                text-align: center;
-            }
-            
-            .company-img img {
-                padding: 5px 20px;
-            }
-            
-            .feature-box {
-                margin: 40px auto;
-            }
-            
-            .icon {
-                color: orange;
-                float: left;
-                position: relative;
-                top: 0px;
-                padding: 15px;
-                background-color: #ffecef;
-                border-radius: 50%;
-            }
-            
-            .icon-green {
-                color: orange;
-                float: left;
-                position: relative;
-                top: 10px;
-                padding: 15px;
-                border-radius: 50%;
-                background-color: #e4ffee;
-            }
-            
-            .icon-blue {
-                color: orange;
-                float: left;
-                position: relative;
-                top: 10px;
-                padding: 15px;
-                border-radius: 50%;
-                background-color: #f4f4ff;
-            }
-            
-            .content {
-                margin-top: 30px;
-                margin-left: 90px;
-            }
-            
-            .content p {
-                color: #616368;
-                font-size: 13px;
-            }
-            
-            .content-red h5 {
-                color: #f55767;
-                font-weight: 600;
-            }
-            
-            .content-blue h5 {
-                color: #2563ff;
-                font-weight: 600;
-            }
-            
-            .content-green h5 {
-                color: #40975f;
-                font-weight: 600;
-            }
-            
-            .features-text h2 {
-                color: #242f51;
-                font-weight: 600;
-                margin: 20px auto;
-            }
-            
-            .features-text p {
-                font-size: 16px;
-                color: #616368;
-            }
-            
-            .smart-text h1 {
-                color: #242f51;
-                font-weight: 600;
-            }
-            
-            .smart-jacket p {
-                color: #6a6c71;
-                margin: 25px auto;
-            }
-            
-            .red {
-                background-color: #ffecef;
-                width: 100px;
-                padding: 20px;
-                border-radius: 50%;
-            }
-            
-            .red-1 h5 {
-                color: #f55767;
-                font-weight: 600;
-                line-height: 30px;
-                margin-top: 20px;
-            }
-            
-            .blue-1 h5 {
-                color: #2563ff;
-                font-weight: 600;
-                line-height: 30px;
-                margin-top: 20px;
-            }
-            
-            .green-1 h5 {
-                color: #40975f;
-                font-weight: 600;
-                line-height: 30px;
-                margin-top: 20px;
-            }
-            
-            .blue {
-                background-color: #f4f4ff;
-                width: 100px;
-                padding: 20px;
-                border-radius: 50%;
-            }
-            
-            .green {
-                background-color: #e4ffee;
-                width: 100px;
-                padding: 20px;
-                border-radius: 50%;
-            }
-            
-            .design-text {
-                line-height: 50px;
-            }
-            
-            .design-text {
-                margin: 50px auto;
-            }
-            
-            .design-text h1 {
-                color: #242f51;
-                font-weight: 600;
-            }
-            
-            .design-text p {
-                color: #616368;
-                line-height: 30px;
-            }
-            
-            .btn-vilote {
-                background-color: #4a2df9;
-                color: white;
-                padding: 10px 20px;
-                border-radius: 50px;
-            }
-            
-            .btn-vilote:hover {
-                text-decoration: none;
-                color: white;
-            }
-            
-            .rg {
-                float: right;
-            }
-            
-            .rg a {
-                color: #4a2df9;
-            }
-            
-            .rg i {
-                background-color: #eff3f8;
-                border-radius: 50%;
-                padding: 10px;
-            }
-            
-            .rg a:hover {
-                text-decoration: none;
-                color: #4a2df9;
-            }
-            
-            .check {
-                color: orange;
-            }
-            
-            .choose-us {
-                margin: 40px auto;
-            }
-            
-            .choose-us h2 {
-                color: #242f51;
-                font-weight: 550;
-            }
-            
-            .choose-us p {
-                color: #616368;
-            }
-            
-            .us-1 {
-                padding: 15px;
-                background-color: #ffecef;
-                border-radius: 50%;
-                width: 90px;
-                margin: 20px auto;
-            }
-            
-            .us-2 {
-                padding: 15px;
-                background-color: #eaf9ff;
-                border-radius: 50%;
-                width: 90px;
-                margin: 20px auto;
-            }
-            
-            .us-3 {
-                padding: 15px;
-                background-color: #fff6d3;
-                border-radius: 50%;
-                width: 90px;
-                margin: 20px auto;
-            }
-            
-            .us-4 {
-                padding: 15px;
-                background-color: #e4ffee;
-                border-radius: 50%;
-                width: 90px;
-                margin: 20px auto;
-            }
-            
-            .us-5 {
-                padding: 15px;
-                background-color: #f4f4ff;
-                border-radius: 50%;
-                width: 90px;
-                margin: 20px auto;
-            }
-            
-            .us-6 {
-                padding: 15px;
-                background-color: #fdeee4;
-                border-radius: 50%;
-                width: 90px;
-                margin: 20px auto;
-            }
-            
-            .why-us strong {
-                color: #242f51;
-                line-height: 40px;
-                margin-top: 40px;
-            }
-            
-            .why-us p {
-                color: #616368;
-                font-size: 13px;
-            }
-            
-            .featur-1 {
-                padding: 15px;
-                background-color: #ffecef;
-                border-radius: 50%;
-                width: 90px;
-                margin: 20px 10px;
-            }
-            
-            .featur-2 {
-                padding: 15px;
-                background-color: #e4ffee;
-                border-radius: 50%;
-                width: 90px;
-                margin: 20px 10px;
-            }
-            
-            .featur-3 {
-                padding: 15px;
-                background-color: #fff6d3;
-                border-radius: 50%;
-                width: 90px;
-                margin: 20px 10px;
-            }
-            
-            .featur-4 {
-                padding: 15px;
-                background-color: #f4f4ff;
-                border-radius: 50%;
-                width: 90px;
-                margin: 20px 10px;
-            }
-            
-            .ulimate-box {
-                margin: 0px auto;
-            }
-            
-            .ulimate-box strong {
-                line-height: 40px;
-            }
-            
-            .ulimate-box p {
-                font-size: 13px;
-            }
-            
-            .testi-text p {
-                line-height: 20px;
-                font-size: 15px;
-                color: #616368;
-                padding-bottom: 20px;
-            }
-            
-            .testi-text h2 {
-                color: #242f51;
-                font-weight: 550;
-                padding-bottom: 20px;
-            }
-            
-            .testi-text strong {
-                color: #242f51;
-                margin: 20px 0;
-                display: block;
-            }
-            
-            .icon-2 {
-                color: orange;
-                float: left;
-                position: relative;
-                top: 30px;
-            }
-            
-            .content-2 {
-                margin-top: 60px;
-                margin-left: 100px;
-            }
-            
-            .qa {
-                text-align: center;
-                margin: 10px auto;
-            }
-            
-            .qa h2 {
-                color: #242f51;
-                font-weight: 550;
-            }
-            
-            .qa p {
-                color: #616368;
-                margin: 20px 0;
-            }
-            
-            .card-header-2 {
-                padding: .75rem 1.25rem;
-                background-color: #f5f7fa;
-            }
-            
-            .card-header-2 a {
-                color: #242f51;
-                font-weight: 550;
-            }
-            
-            .card-header-2 a:hover {
-                text-decoration: none;
-                color: #242f51;
-            }
-            
-            .card-body-2 {
-                background-color: #f5f7fa;
-                padding: 1.25rem;
-            }
-            
-            .download h2 {
-                color: #242f51;
-                font-weight: 550;
-                padding: 20px 0px;
-            }
-            
-            .download p {
-                color: #616368;
-                font-size: 15px;
-            }
-            
-            .download img {
-                margin: 30px 0px;
-            }
-            
-            .foter h2 {
-                color: #fcae61;
-                font-weight: 550;
-                margin: 20px 0;
-            }
-            
-            .foter span {
-                color: white;
-            }
-            
-            .foter p {
-                color: #273043;
-                padding: 80px;
-            }
-            
-            .foter-2 span {
-                color: #273043;
-                font-size: 30px;
-                padding: 10px;
-            }
-            
-            .foter-2 span i:hover {
-                color: #fcae61;
-            }
-            
-            .anchor {
-                margin: 30px 10px;
-            }
-            
-            .anchor a {
-                color: white;
-                padding: 10px 20px;
-                background-color: #2500F9;
-                border-radius: 50px;
-            }
-            
-            .anchor a:hover {
-                color: white;
-                text-decoration: none;
-            }
-            
-            .nav-pills .nav-link.active,
-            .nav-pills .show>.nav-link {
-                color: #fff;
-                background-color: #2500f9!important;
-                border-radius: 50px;
-            }
-            
-            .tab-button {
-                margin: 20px auto;
-                max-width: fit-content;
-                border-radius: 50px;
-                padding: 5px 5px;
-            }
-            
-            .tab-button a {
-                color: #2500f9;
-                padding: 10px 30px;
-            }
-            
-            .tab-button a:hover {
-                color: #2500f9;
-            }
-            
-            .card-body {
-                padding: 0px!important;
-            }
-            
-            .period {
-                font-size: 50px;
-                font-weight: 600;
-                color: #242f51;
-            }
-            
-            .fa-ul {
-                padding-left: 0;
-                margin-left: 0!important;
-                line-height: 40px;
-                list-style-type: none;
-                margin-top: 20px;
-            }
-            
-            .btn-blue {
-                margin: 30px auto;
-                max-width: fit-content;
-            }
-            
-            .btn-blue a {
-                background-color: #2500f9;
-                padding: 5px 30px;
-                border-radius: 50px;
-                color: white;
-            }
-            
-            .btn-blue a:hover {
-                color: white;
-                text-decoration: none;
-            }
-            
-            .price-card {
-                background: rgb(255, 255, 255);
-                background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(233, 233, 233, 1) 100%);
-                padding: 20px 50px 5px 50px;
-            }
-            
-            .price-card h6 {
-                color: #242f51;
-                font-weight: 600;
-            }
-            
-            .card-hover:hover {
-                box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px rgba(0, 0, 0, 0.12);
-                border: none;
-            }
-            
-            .space {
-                margin: 90px auto;
-            }
-            
-            @media screen and (max-width: 769px) {
-                .header-img {
-                    display: none;
-                }
-                .text-box {
-                    margin: 0px 0px 69px;
-                }
-                .space {
-                    margin: 30px auto;
-                }
-                .link-bt {
-                    margin-left: 0px;
-                }
-                .link-bt-1 {
-                    margin-top: 15px;
-                }
-            }
+                                    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+                                    * {
+                                        margin: 0;
+                                        padding: 0;
+                                        box-sizing: border-box;
+                                        font-family: 'Poppins', sans-serif;
+                                    }
+                                    
+                                    html,
+                                    body {
+                                        background-color: #FDFDFE;
+                                    }
+                                    
+                                    .logo h1 {
+                                        color: #fcae61;
+                                        font-weight: 700;
+                                    }
+                                    
+                                    .logo span {
+                                        color: #242f51;
+                                    }
+                                    
+                                    .navbar-black ul li a {
+                                        color: #313b5b;
+                                        font-weight: 500;
+                                    }
+                                    
+                                    .link-bt {
+                                        padding: 10px 20px;
+                                        margin-left: 20px;
+                                        background-color: #2500f9;
+                                        border-radius: 50px;
+                                        color: white;
+                                    }
+                                    
+                                    .link-bt a {
+                                        text-decoration: none;
+                                    }
+                                    
+                                    .link-bt:hover {
+                                        color: white;
+                                        text-decoration: none;
+                                    }
+                                    
+                                    .text-box {
+                                        padding: 10px;
+                                    }
+                                    
+                                    .check-box span {
+                                        padding: 5px 20px 5px 0px;
+                                        border-radius: 50px;
+                                        background-color: #e2eaed;
+                                    }
+                                    
+                                    .icon-box {
+                                        padding: 5px;
+                                        border-radius: 50%;
+                                        color: white;
+                                        background-color: #feaa25;
+                                        margin-right: 10px;
+                                        font-size: 15pt;
+                                        display: table-cell;
+                                        vertical-align: middle;
+                                    }
+                                    
+                                    .header-img img {
+                                        max-width: 100%;
+                                        padding-bottom: 20px;
+                                    }
+                                    
+                                    .text-box {
+                                        line-height: 60px;
+                                        margin: 25% auto;
+                                    }
+                                    
+                                    .text-box h1 {
+                                        color: #242F51;
+                                        font-weight: 800;
+                                    }
+                                    
+                                    .text-box p {
+                                        line-height: 20px;
+                                        color: gray;
+                                    }
+                                    
+                                    .button-box {
+                                        display: inline-block;
+                                    }
+                                    
+                                    .button-box a {
+                                        padding: 10px 20px;
+                                        background-color: #2500f9;
+                                        border-radius: 50px;
+                                        color: white;
+                                        text-decoration: none;
+                                    }
+                                    
+                                    .button-box a:hover {
+                                        color: white;
+                                        text-decoration: none;
+                                    }
+                                    
+                                    .button-box-2 {
+                                        display: inline-block;
+                                    }
+                                    
+                                    .button-box-2 a {
+                                        color: #2500f9;
+                                        padding-left: 10px;
+                                    }
+                                    
+                                    .button-box-2 a:hover {
+                                        color: #FCAE61;
+                                        text-decoration: none;
+                                    }
+                                    
+                                    .company-heading p {
+                                        color: #242f51;
+                                        font-weight: 500;
+                                    }
+                                    
+                                    .company-img {
+                                        text-align: center;
+                                    }
+                                    
+                                    .company-img img {
+                                        padding: 5px 20px;
+                                    }
+                                    
+                                    .feature-box {
+                                        margin: 40px auto;
+                                    }
+                                    
+                                    .icon {
+                                        color: orange;
+                                        float: left;
+                                        position: relative;
+                                        top: 0px;
+                                        padding: 15px;
+                                        background-color: #ffecef;
+                                        border-radius: 50%;
+                                    }
+                                    
+                                    .icon-green {
+                                        color: orange;
+                                        float: left;
+                                        position: relative;
+                                        top: 10px;
+                                        padding: 15px;
+                                        border-radius: 50%;
+                                        background-color: #e4ffee;
+                                    }
+                                    
+                                    .icon-blue {
+                                        color: orange;
+                                        float: left;
+                                        position: relative;
+                                        top: 10px;
+                                        padding: 15px;
+                                        border-radius: 50%;
+                                        background-color: #f4f4ff;
+                                    }
+                                    
+                                    .content {
+                                        margin-top: 30px;
+                                        margin-left: 90px;
+                                    }
+                                    
+                                    .content p {
+                                        color: #616368;
+                                        font-size: 13px;
+                                    }
+                                    
+                                    .content-red h5 {
+                                        color: #f55767;
+                                        font-weight: 600;
+                                    }
+                                    
+                                    .content-blue h5 {
+                                        color: #2563ff;
+                                        font-weight: 600;
+                                    }
+                                    
+                                    .content-green h5 {
+                                        color: #40975f;
+                                        font-weight: 600;
+                                    }
+                                    
+                                    .features-text h2 {
+                                        color: #242f51;
+                                        font-weight: 600;
+                                        margin: 20px auto;
+                                    }
+                                    
+                                    .features-text p {
+                                        font-size: 16px;
+                                        color: #616368;
+                                    }
+                                    
+                                    .smart-text h1 {
+                                        color: #242f51;
+                                        font-weight: 600;
+                                    }
+                                    
+                                    .smart-jacket p {
+                                        color: #6a6c71;
+                                        margin: 25px auto;
+                                    }
+                                    
+                                    .red {
+                                        background-color: #ffecef;
+                                        width: 100px;
+                                        padding: 20px;
+                                        border-radius: 50%;
+                                    }
+                                    
+                                    .red-1 h5 {
+                                        color: #f55767;
+                                        font-weight: 600;
+                                        line-height: 30px;
+                                        margin-top: 20px;
+                                    }
+                                    
+                                    .blue-1 h5 {
+                                        color: #2563ff;
+                                        font-weight: 600;
+                                        line-height: 30px;
+                                        margin-top: 20px;
+                                    }
+                                    
+                                    .green-1 h5 {
+                                        color: #40975f;
+                                        font-weight: 600;
+                                        line-height: 30px;
+                                        margin-top: 20px;
+                                    }
+                                    
+                                    .blue {
+                                        background-color: #f4f4ff;
+                                        width: 100px;
+                                        padding: 20px;
+                                        border-radius: 50%;
+                                    }
+                                    
+                                    .green {
+                                        background-color: #e4ffee;
+                                        width: 100px;
+                                        padding: 20px;
+                                        border-radius: 50%;
+                                    }
+                                    
+                                    .design-text {
+                                        line-height: 50px;
+                                    }
+                                    
+                                    .design-text {
+                                        margin: 50px auto;
+                                    }
+                                    
+                                    .design-text h1 {
+                                        color: #242f51;
+                                        font-weight: 600;
+                                    }
+                                    
+                                    .design-text p {
+                                        color: #616368;
+                                        line-height: 30px;
+                                    }
+                                    
+                                    .btn-vilote {
+                                        background-color: #4a2df9;
+                                        color: white;
+                                        padding: 10px 20px;
+                                        border-radius: 50px;
+                                    }
+                                    
+                                    .btn-vilote:hover {
+                                        text-decoration: none;
+                                        color: white;
+                                    }
+                                    
+                                    .rg {
+                                        float: right;
+                                    }
+                                    
+                                    .rg a {
+                                        color: #4a2df9;
+                                    }
+                                    
+                                    .rg i {
+                                        background-color: #eff3f8;
+                                        border-radius: 50%;
+                                        padding: 10px;
+                                    }
+                                    
+                                    .rg a:hover {
+                                        text-decoration: none;
+                                        color: #4a2df9;
+                                    }
+                                    
+                                    .check {
+                                        color: orange;
+                                    }
+                                    
+                                    .choose-us {
+                                        margin: 40px auto;
+                                    }
+                                    
+                                    .choose-us h2 {
+                                        color: #242f51;
+                                        font-weight: 550;
+                                    }
+                                    
+                                    .choose-us p {
+                                        color: #616368;
+                                    }
+                                    
+                                    .us-1 {
+                                        padding: 15px;
+                                        background-color: #ffecef;
+                                        border-radius: 50%;
+                                        width: 90px;
+                                        margin: 20px auto;
+                                    }
+                                    
+                                    .us-2 {
+                                        padding: 15px;
+                                        background-color: #eaf9ff;
+                                        border-radius: 50%;
+                                        width: 90px;
+                                        margin: 20px auto;
+                                    }
+                                    
+                                    .us-3 {
+                                        padding: 15px;
+                                        background-color: #fff6d3;
+                                        border-radius: 50%;
+                                        width: 90px;
+                                        margin: 20px auto;
+                                    }
+                                    
+                                    .us-4 {
+                                        padding: 15px;
+                                        background-color: #e4ffee;
+                                        border-radius: 50%;
+                                        width: 90px;
+                                        margin: 20px auto;
+                                    }
+                                    
+                                    .us-5 {
+                                        padding: 15px;
+                                        background-color: #f4f4ff;
+                                        border-radius: 50%;
+                                        width: 90px;
+                                        margin: 20px auto;
+                                    }
+                                    
+                                    .us-6 {
+                                        padding: 15px;
+                                        background-color: #fdeee4;
+                                        border-radius: 50%;
+                                        width: 90px;
+                                        margin: 20px auto;
+                                    }
+                                    
+                                    .why-us strong {
+                                        color: #242f51;
+                                        line-height: 40px;
+                                        margin-top: 40px;
+                                    }
+                                    
+                                    .why-us p {
+                                        color: #616368;
+                                        font-size: 13px;
+                                    }
+                                    
+                                    .featur-1 {
+                                        padding: 15px;
+                                        background-color: #ffecef;
+                                        border-radius: 50%;
+                                        width: 90px;
+                                        margin: 20px 10px;
+                                    }
+                                    
+                                    .featur-2 {
+                                        padding: 15px;
+                                        background-color: #e4ffee;
+                                        border-radius: 50%;
+                                        width: 90px;
+                                        margin: 20px 10px;
+                                    }
+                                    
+                                    .featur-3 {
+                                        padding: 15px;
+                                        background-color: #fff6d3;
+                                        border-radius: 50%;
+                                        width: 90px;
+                                        margin: 20px 10px;
+                                    }
+                                    
+                                    .featur-4 {
+                                        padding: 15px;
+                                        background-color: #f4f4ff;
+                                        border-radius: 50%;
+                                        width: 90px;
+                                        margin: 20px 10px;
+                                    }
+                                    
+                                    .ulimate-box {
+                                        margin: 0px auto;
+                                    }
+                                    
+                                    .ulimate-box strong {
+                                        line-height: 40px;
+                                    }
+                                    
+                                    .ulimate-box p {
+                                        font-size: 13px;
+                                    }
+                                    
+                                    .testi-text {
+                                        max-width: 70%;
+                                    }
+                                    
+                                    .testi-text p {
+                                        line-height: 20px;
+                                        font-size: 15px;
+                                        color: #616368;
+                                        padding-bottom: 20px;
+                                        max-width: 70%;
+                                    }
+                                    
+                                    .testi-text h2 {
+                                        color: #242f51;
+                                        font-weight: 550;
+                                        padding-bottom: 20px;
+                                    }
+                                    
+                                    .testi-text strong {
+                                        color: #242f51;
+                                        margin: 20px 0;
+                                        display: block;
+                                    }
+                                    
+                                    .icon-2 {
+                                        color: orange;
+                                        float: left;
+                                        position: relative;
+                                        top: 30px;
+                                    }
+                                    
+                                    .content-2 {
+                                        margin-top: 60px;
+                                        margin-left: 100px;
+                                    }
+                                    
+                                    .qa {
+                                        text-align: center;
+                                        margin: 10px auto;
+                                    }
+                                    
+                                    .qa h2 {
+                                        color: #242f51;
+                                        font-weight: 550;
+                                    }
+                                    
+                                    .qa p {
+                                        color: #616368;
+                                        margin: 20px 0;
+                                    }
+                                    
+                                    .card-header-2 {
+                                        padding: .75rem 1.25rem;
+                                        background-color: #f5f7fa;
+                                    }
+                                    
+                                    .card-header-2 a {
+                                        color: #242f51;
+                                        font-weight: 550;
+                                    }
+                                    
+                                    .card-header-2 a:hover {
+                                        text-decoration: none;
+                                        color: #242f51;
+                                    }
+                                    
+                                    .card-body-2 {
+                                        background-color: #f5f7fa;
+                                        padding: 1.25rem;
+                                    }
+                                    
+                                    .download h2 {
+                                        color: #242f51;
+                                        font-weight: 550;
+                                        padding: 20px 0px;
+                                    }
+                                    
+                                    .download p {
+                                        color: #616368;
+                                        font-size: 15px;
+                                    }
+                                    
+                                    .download img {
+                                        margin: 30px 0px;
+                                    }
+                                    
+                                    .foter h2 {
+                                        color: #fcae61;
+                                        font-weight: 550;
+                                        margin: 20px 0;
+                                    }
+                                    
+                                    .foter span {
+                                        color: white;
+                                    }
+                                    
+                                    .foter p {
+                                        color: #273043;
+                                        padding: 80px;
+                                    }
+                                    
+                                    .foter-2 span {
+                                        color: #273043;
+                                        font-size: 30px;
+                                        padding: 10px;
+                                    }
+                                    
+                                    .foter-2 span i:hover {
+                                        color: #fcae61;
+                                    }
+                                    
+                                    .anchor {
+                                        margin: 30px 10px;
+                                    }
+                                    
+                                    .anchor a {
+                                        color: white;
+                                        padding: 10px 20px;
+                                        background-color: #2500F9;
+                                        border-radius: 50px;
+                                    }
+                                    
+                                    .anchor a:hover {
+                                        color: white;
+                                        text-decoration: none;
+                                    }
+                                    
+                                    .nav-pills .nav-link.active,
+                                    .nav-pills .show>.nav-link {
+                                        color: #fff;
+                                        background-color: #2500f9!important;
+                                        border-radius: 50px;
+                                    }
+                                    
+                                    .tab-button {
+                                        margin: 20px auto;
+                                        max-width: fit-content;
+                                        border-radius: 50px;
+                                        padding: 5px 5px;
+                                    }
+                                    
+                                    .tab-button a {
+                                        color: #2500f9;
+                                        padding: 10px 30px;
+                                    }
+                                    
+                                    .tab-button a:hover {
+                                        color: #2500f9;
+                                    }
+                                    
+                                    .card-body {
+                                        padding: 0px!important;
+                                    }
+                                    
+                                    .period {
+                                        font-size: 50px;
+                                        font-weight: 600;
+                                        color: #242f51;
+                                    }
+                                    
+                                    .fa-ul {
+                                        padding-left: 0;
+                                        margin-left: 0!important;
+                                        line-height: 40px;
+                                        list-style-type: none;
+                                        margin-top: 20px;
+                                    }
+                                    
+                                    .btn-blue {
+                                        margin: 30px auto;
+                                        max-width: fit-content;
+                                    }
+                                    
+                                    .btn-blue a {
+                                        background-color: #2500f9;
+                                        padding: 5px 30px;
+                                        border-radius: 50px;
+                                        color: white;
+                                    }
+                                    
+                                    .btn-blue a:hover {
+                                        color: white;
+                                        text-decoration: none;
+                                    }
+                                    
+                                    .price-card {
+                                        background: rgb(255, 255, 255);
+                                        background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(233, 233, 233, 1) 100%);
+                                        padding: 20px 50px 5px 50px;
+                                    }
+                                    
+                                    .price-card h6 {
+                                        color: #242f51;
+                                        font-weight: 600;
+                                    }
+                                    
+                                    .card-hover:hover {
+                                        box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px rgba(0, 0, 0, 0.12);
+                                        border: none;
+                                    }
+                                    
+                                    .space {
+                                        margin: 90px auto;
+                                    }
+                                    
+                                    .testimonal {
+                                        margin: 120px auto;
+                                    }
+                                    
+                                    .fot-img {
+                                        padding-left: 20px;
+                                    }
+                                    
+                                    @media screen and (max-width: 769px) {
+                                        h1 {
+                                            font-size: 26px!important;
+                                        }
+                                        .header-img {
+                                            display: none;
+                                        }
+                                        .text-box {
+                                            margin: 0px 0px 69px;
+                                        }
+                                        .space {
+                                            margin: 30px auto;
+                                        }
+                                        .link-bt-1 {
+                                            display: none;
+                                        }
+                                        .ulimate-box strong {
+                                            line-height: normal;
+                                        }
+                                        .testimonal-img {
+                                            display: none;
+                                        }
+                                        .testimonal {
+                                            margin: 0px auto;
+                                        }
+                                        .testi-text {
+                                            max-width: 100%;
+                                        }
+                                        .testi-text p {
+                                            padding-bottom: 0px;
+                                            max-width: 100%;
+                                        }
+                                        .download img {
+                                            margin: 15px 0px;
+                                        }
+                                        .fot-img {
+                                            padding-left: 0px;
+                                        }
+                                    }
